@@ -1,0 +1,9 @@
+logLevel: info
+
+rtsp: yes
+rtspAddress: :8554
+rtspTransports: [tcp]
+
+paths:
+  daikin:
+    source: publisher

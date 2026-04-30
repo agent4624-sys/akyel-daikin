@@ -1,0 +1,11 @@
+[Unit]
+Description=MediaMTX
+After=network.target
+
+[Service]
+ExecStart=/home/pi/mediamtx /home/pi/akyel-daikin/mediamtx.yml
+Restart=always
+User=root
+
+[Install]
+WantedBy=multi-user.target
